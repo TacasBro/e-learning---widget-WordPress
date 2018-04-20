@@ -1,0 +1,29 @@
+#container{
+    margin: 50px;
+    
+}
+#osoba {
+    margin:15px;
+    border-bottom: 2px solid blue;
+}
+#nazwa_zajec{
+    margin:15px;
+  
+}
+#platforma{
+    margin:15px;
+    
+}
+#line{
+    border-bottom: 2px solid blue;   
+   
+}
+#kierunek{
+    margin:15px;
+  
+}
+#wydzial{
+    margin:15px;
+  
+}
+

@@ -1,0 +1,69 @@
+  form {
+            width: 60%;
+            font: 12px 'Segoe UI', Arial, sans-serif;
+            margin: 10px;
+        }
+
+        form>div {
+            margin: 2px;
+            padding: 0 5px;
+        }
+
+        label {
+            display: block;
+            font: bold 12px 'Segoe UI', Arial, sans-serif;
+            margin: 2px;
+            color: #444;
+        }
+
+        ::-webkit-input-placeholder {
+            color: #aaa;
+            font-weight: normal;
+        }
+
+        :-moz-placeholder {
+            color: #aaa;
+            font-weight: normal;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            vertical-align: middle;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 300px;
+            height: 30px;
+            font: bold 12px/30px Arial, sans-serif;
+            color: #333;
+            padding: 5px;
+            border: 1px solid #ddd;
+            -webkit-box-sizing: border-box;
+            /* Safari/Chrome, other WebKit */
+            -moz-box-sizing: border-box;
+            /* Firefox, other Gecko */
+            box-sizing: border-box;
+            /* Opera/IE 8+ */
+            margin-bottom: 5px;
+            box-shadow: none;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+        }
+
+        textarea {
+            height: 120px;
+        }
+
+        *.invalid {
+            background: #FFEDED url(http://cdn1.iconfinder.com/data/icons/ledicons/cross.png) 95% 15px no-repeat;
+        }
+
+        *.valid {
+            background: #F5FFE3 url(http://cdn1.iconfinder.com/data/icons/ledicons/accept.png) 95% 15px no-repeat;
+        }

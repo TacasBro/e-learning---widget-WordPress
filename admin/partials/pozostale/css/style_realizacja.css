@@ -1,0 +1,28 @@
+body{
+    margin: 50px;
+}
+
+
+#prowadzacy{
+    border-right: 2px dotted rgb(178, 178, 203);   
+}
+
+#kierunek{
+    border-right: 2px dotted rgb(178, 178, 203);   
+}
+#rodzaj_zajec{
+    border-right: 2px dotted rgb(178, 178, 203);   
+}
+.line{
+    margin: 50px;
+    border-bottom: 2px solid blue;   
+}.error
+		{
+			color:red;
+			margin-top: 10px;
+			margin-bottom: 10px;
+        }
+#wstecz{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
